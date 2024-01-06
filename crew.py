@@ -1,8 +1,5 @@
 from langchain.llms import Ollama
 from crewai import Agent, Task, Crew, Process
-#import os
-
-#os.environ["OPENAI_API_KEY"] = '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'
 
 ollama_openhermes = Ollama(model="openhermes")
 
